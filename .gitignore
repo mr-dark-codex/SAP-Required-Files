@@ -1,0 +1,31 @@
+# Ignore TITO folder
+TitoByPlantCodeProp2/
+
+# Credentials and sensitive files
+*.properties
+dbCredentials.properties
+appInfo.properties
+
+# Compiled files
+*.jar
+*.class
+
+# IDE files
+.settings/
+.project
+.classpath
+.cdtproject
+.cproject
+
+# Build directories
+bin/
+target/
+build/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db

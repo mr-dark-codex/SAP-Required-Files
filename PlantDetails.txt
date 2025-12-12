@@ -1,0 +1,15 @@
+PlantCode	 PlantName
+N101     	 SOYA_SOLVENT
+N201     	 Refinery_Plant
+N202     	 Refinery_ETP
+N205     	 Tin_Plant
+N206     	 Jar_Plant
+N207     	 Bottle_Plant
+N208     	 Oil_Packing
+N365     	 Poultry_Feed
+N406     	 Poultry_Feed_1
+N407     	 Rendering_Plant
+N601     	 Premix_Plant
+N652     	 Soya_Chunk_Plant
+NC07     	 Boiler
+NC09     	 Central_Store
