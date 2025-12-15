@@ -1,6 +1,6 @@
 # API URL Parameter 
 ## Allocation API:
-`http://172.16.0.147:8001/sap/bc/rest/titogatepass?sap-client=786&gateslip= 6204521954 &plant=N421&vehtype=LOADING`
+`http://172.16.0.147:8001/sap/bc/rest/titogatepass?sap-client=786&gateslip=6204521954&plant=N421&vehtype=LOADING`
 
 ## Deallocation API:
 `http://172.16.0.147:8001/sap/bc/rest/tito_weighment?sap-client=786&gateslip= 6204521954 &plant=N421&vehtype=LOADING`
@@ -46,3 +46,7 @@ plantNo=9406
 readerIp=10.0.17.92
 
 
+UP PLANT TITO: 
+GATESLIP: 6201399659
+
+http://172.16.0.147:8001/sap/bc/rest/TitoGatePass?sap-client=786&gateslip=6201399659&plant=N406&vehType=LOADING
