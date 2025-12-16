@@ -47,3 +47,102 @@ Without Material Details
 }
 without Material Details, because DATA COMING FROM SAP is global, it fetch from GATESLIP NO. 
 `
+
+## DEALLOCATION API: 
+
+Among three important fields, 
+plant, vehtype, gateslip these are the fields
+
+1. Only Vehtype is mismatched(like Loading required, put Unloading, or vice versa), others are correct
+`
+[
+  {
+    "WERKS": plant,
+    "NAME1": "Poultry Feed- Inhouse-Tumkur",
+    "UNIT1": "KG"
+  }
+]
+`
+
+2. Only Vehtype is random, others are correct
+`
+[
+  {
+    "WERKS": plant,
+    "NAME1": "Poultry Feed- Inhouse-Tumkur",
+  }
+]
+`
+
+3. If Only Gateslip is not found, others are correct.
+`
+[
+  {
+    "WERKS": plant,
+    "NAME1": "Poultry Feed- Inhouse-Tumkur",
+    "UNIT1": "KG"
+  }
+]
+`
+
+4. Only Plant is incorrect, others are correct
+`
+[
+  {
+    "WERKS": plant,
+    "GINUS": "BDRDISPGATEI",
+    "ETWEIGHT": 12210,
+    "LTWEIGHT": 42200,
+    "UNIT1": "KG"
+  }
+]
+`
+
+5. Gateslip and plant are incorrect, othes are correct 
+`
+[
+  {
+    "WERKS": "plant",
+    "UNIT1": "KG"
+  }
+]
+`
+
+
+6. Gateslip and plant and vehtype are incorrect
+`
+[
+  {
+    "WERKS": "plant",
+    "UNIT1": "KG"
+  }
+]
+`
+
+
+7. plant and vehtype are incorrect, gateslip are correct 
+`
+[
+  {
+    "WERKS": "plant"
+  }
+]
+`
+
+
+6. all are correct  
+`
+[
+  {
+    "WERKS": "N421",
+    "NAME1": "Poultry Feed- Inhouse-Tumkur",
+    "GINUS": "BDRDISPGATEI",
+    "ETWEIGHT": 12210,
+    "LTWEIGHT": 42200,
+    "UNIT1": "KG"
+  }
+]
+
+`
+
+

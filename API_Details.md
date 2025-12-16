@@ -3,7 +3,7 @@
 `http://172.16.0.147:8001/sap/bc/rest/titogatepass?sap-client=786&gateslip=6204521954&plant=N421&vehtype=LOADING`
 
 ## Deallocation API:
-`http://172.16.0.147:8001/sap/bc/rest/tito_weighment?sap-client=786&gateslip= 6204521954 &plant=N421&vehtype=LOADING`
+`http://172.16.0.147:8001/sap/bc/rest/tito_weighment?sap-client=786&gateslip=6204521954&plant=N421&vehtype=LOADING`
 
 `{
   "DRIVERNAME": "BANE SINGH",
